@@ -70,10 +70,10 @@ export default function Home() {
 
           {/* Icons */}
           <div className="flex justify-center md:justify-start gap-5 pt-2">
-            <a href="https://github.com/yourusername" target="_blank" className="text-black hover:scale-110 transition-transform">
+            <a href="https://github.com/imanaswer" target="_blank" className="text-black hover:scale-110 transition-transform">
                 <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" className="text-black hover:scale-110 transition-transform">
+            <a href="https://linkedin.com/in/imanaswer" target="_blank" className="text-black hover:scale-110 transition-transform">
                 <Linkedin size={24} />
             </a>
             <a href="mailto:your@email.com" className="text-black hover:scale-110 transition-transform">
