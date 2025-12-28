@@ -9,9 +9,11 @@ export default function Home() {
       {/* 1. TOP NAVIGATION */}
       <nav className="flex justify-center gap-8 py-12 text-lg text-gray-500 underline-offset-4 font-sans">
         <a href="#about" className="hover:text-black hover:underline transition-all">about</a>
-        {/* Updated to link to the separate Projects page */}
+        {/* Link to the separate Projects page */}
         <Link href="/projects" className="hover:text-black hover:underline transition-all">projects</Link>
-        <Link href="/experiences" className="hover:text-black hover:underline transition-all">experiences</Link>      </nav>
+        {/* Link to the separate Experiences page */}
+        <Link href="/experiences" className="hover:text-black hover:underline transition-all">experiences</Link>      
+      </nav>
 
       {/* 2. MAIN CONTENT CENTERED */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20 mt-10 md:mt-32 max-w-5xl mx-auto px-6">
@@ -33,7 +35,7 @@ export default function Home() {
           
           {/* THE HEADING + CAT */}
           <div className="relative inline-block">
-            {/* THE FIX: 'mix-blend-multiply' makes the white background of the GIF transparent */}
+            {/* 'mix-blend-multiply' makes the white background of the GIF transparent */}
             <img 
               src="/cat.gif" 
               alt="Cat" 
@@ -66,17 +68,19 @@ export default function Home() {
             Currently building cool things with AI. <br/>
             Check out my <Link href="/projects" className="underline decoration-gray-400 hover:decoration-black underline-offset-4 text-black">work</Link> or say hi.
           </p>
-          
 
-          {/* Icons */}
+          {/* Icons - Updated with your actual links */}
           <div className="flex justify-center md:justify-start gap-5 pt-2">
-            <a href="https://github.com/imanaswer" target="_blank" className="text-black hover:scale-110 transition-transform">
+            {/* GitHub */}
+            <a href="https://github.com/imanaswer" target="_blank" rel="noopener noreferrer" className="text-black hover:scale-110 transition-transform">
                 <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/imanaswer" target="_blank" className="text-black hover:scale-110 transition-transform">
+            {/* LinkedIn (Updated based on resume) */}
+            <a href="https://www.linkedin.com/in/anaswerajay/" target="_blank" rel="noopener noreferrer" className="text-black hover:scale-110 transition-transform">
                 <Linkedin size={24} />
             </a>
-            <a href="mailto:your@email.com" className="text-black hover:scale-110 transition-transform">
+            {/* Email (Updated based on resume) */}
+            <a href="mailto:anaswer.impluse@gmail.com" className="text-black hover:scale-110 transition-transform">
                 <Mail size={24} />
             </a>
           </div>
